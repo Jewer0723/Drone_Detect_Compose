@@ -16,6 +16,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:resizeableActivity="true"
         android:theme="@style/Theme.DroneDetectCompose"
         tools:targetApi="31">
         <activity
